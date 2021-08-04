@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  latest:
+    build: .
+    image: aidemy/flask-beginner
+    container_name: aidemy_flask_beginner
+    environment:
+      TZ: Asia/Tokyo
+    ports:
+      - 5000:5000
+    volumes:
+      - ./app:/app
+    tty: true
