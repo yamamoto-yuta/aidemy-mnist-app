@@ -1,6 +1,6 @@
 # flask-beginner
 
-バイト用
+Aidemy の「Flask 入門」講座用
 
 # 使い方
 
